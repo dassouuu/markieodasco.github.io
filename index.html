@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Markie Odasco — AI Video Specialist</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #080808;
+      color: #f5f5f5;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* NAVIGATION */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(8,8,8,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-weight: 800;
+      letter-spacing: 2px;
+      font-size: 14px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .nav-links a:hover {
+      color: white;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      padding: 150px 7% 80px;
+      display: grid;
+      grid-template-columns: 0.8fr 1.5fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .profile {
+      height: 420px;
+      border: 1px solid #292929;
+      border-radius: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(145deg, #151515, #0b0b0b);
+      overflow: hidden;
+    }
+
+    .profile-placeholder {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: linear-gradient(145deg, #ddd, #777);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #111;
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .eyebrow {
+      color: #888;
+      font-size: 13px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(45px, 6vw, 82px);
+      line-height: 0.98;
+      letter-spacing: -4px;
+      margin-bottom: 30px;
+    }
+
+    .hero-description {
+      color: #aaa;
+      max-width: 700px;
+      font-size: 17px;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 25px;
+      border-radius: 30px;
+      background: white;
+      color: black;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      transform: translateY(-3px);
+      background: #ddd;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 110px 7%;
+      border-top: 1px solid #1e1e1e;
+    }
+
+    .section-label {
+      color: #777;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-size: clamp(35px, 5vw, 60px);
+      letter-spacing: -2px;
+      margin-bottom: 50px;
+    }
+
+    /* SERVICES */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .service {
+      border: 1px solid #262626;
+      padding: 35px;
+      min-height: 230px;
+      border-radius: 16px;
+      transition: 0.3s;
+    }
+
+    .service:hover {
+      background: #111;
+      transform: translateY(-5px);
+    }
+
+    .number {
+      color: #666;
+      font-size: 12px;
+      margin-bottom: 35px;
+    }
+
+    .service h3 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .service p {
+      color: #888;
+      font-size: 14px;
+    }
+
+    /* WORK */
+    .work-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .work-card {
+      min-height: 330px;
+      border-radius: 18px;
+      border: 1px solid #262626;
+      background: #101010;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      transition: 0.3s;
+    }
+
+    .work-card:hover {
+      transform: scale(1.01);
+      background: #141414;
+    }
+
+    .work-card span {
+      color: #777;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .work-card h3 {
+      font-size: 27px;
+      margin-top: 8px;
+    }
+
+    .work-card p {
+      color: #888;
+      font-size: 14px;
+    }
+
+    /* ABOUT */
+    .about {
+      max-width: 900px;
+    }
+
+    .about p {
+      font-size: 24px;
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    /* CONTACT */
+    .contact {
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+
+    .contact h2 {
+      font-size: clamp(45px, 7vw, 90px);
+      line-height: 1;
+      letter-spacing: -4px;
+      margin-bottom: 35px;
+    }
+
+    .contact p {
+      color: #888;
+      margin-bottom: 35px;
+    }
+
+    footer {
+      border-top: 1px solid #1e1e1e;
+      padding: 30px 7%;
+      color: #666;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* MOBILE */
+    @media (max-width: 800px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding-top: 120px;
+      }
+
+      .profile {
+        height: 300px;
+        order: 2;
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+
+      .services,
+      .work-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about p {
+        font-size: 19px;
+      }
+
+      footer {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">MO — AI VIDEO SPECIALIST</div>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Hire Me</a>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <main class="hero">
+
+    <div class="profile">
+      <div class="profile-placeholder">
+        YOUR PHOTO
+      </div>
+    </div>
+
+    <div>
+      <div class="eyebrow">AI Video Specialist & Video Editor</div>
+
+      <h1>
+        I create AI videos that feel directed — not just generated.
+      </h1>
+
+      <p class="hero-description">
+        I create AI-powered video ads, UGC-style creatives, product videos,
+        and performance-focused content designed to capture attention and
+        communicate ideas clearly.
+      </p>
+
+      <a href="#work" class="button">
+        View my work →
+      </a>
+    </div>
+
+  </main>
+
+
+  <!-- SERVICES -->
+  <section id="services">
+
+    <div class="section-label">What I do</div>
+
+    <h2 class="section-title">
+      From idea to final video.
+    </h2>
+
+    <div class="services">
+
+      <div class="service">
+        <div class="number">01</div>
+        <h3>Creative Direction</h3>
+        <p>
+          Turning scripts, references and ideas into clear visual concepts,
+          hooks, pacing and storytelling.
+        </p>
+      </div>
+
+      <div class="service">
+        <div class="number">02</div>
+        <h3>AI Video Production</h3>
+        <p>
+          AI UGC, AI characters, product visuals, animations, B-roll and
+          creative video generation.
+        </p>
+      </div>
+
+      <div class="service">
+        <div class="number">03</div>
+        <h3>Post-Production</h3>
+        <p>
+          Video editing, captions, sound design, motion graphics, pacing
+          and polished final delivery.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- WORK -->
+  <section id="work">
+
+    <div class="section-label">Selected Work</div>
+
+    <h2 class="section-title">
+      Creative projects.
+    </h2>
+
+    <div class="work-grid">
+
+      <div class="work-card">
+        <span>AI UGC Ad</span>
+        <h3>Performance Creative</h3>
+        <p>
+          AI-powered UGC-style advertisement created for social media.
+        </p>
+      </div>
+
+      <div class="work-card">
+        <span>Product Video</span>
+        <h3>Product Storytelling</h3>
+        <p>
+          Visual product creative designed to highlight benefits and
+          communicate the product clearly.
+        </p>
+      </div>
+
+      <div class="work-card">
+        <span>AI Animation</span>
+        <h3>Animated Creative</h3>
+        <p>
+          Stylized AI-generated animation built around a creative concept.
+        </p>
+      </div>
+
+      <div class="work-card">
+        <span>Video Editing</span>
+        <h3>Short-Form Content</h3>
+        <p>
+          Fast-paced edited content with captions, sound design and
+          retention-focused pacing.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <div class="section-label">About Me</div>
+
+    <div class="about">
+
+      <h2 class="section-title">
+        I combine AI with creative editing.
+      </h2>
+
+      <p>
+        I'm Markie Odasco, an AI Video Specialist and Video Editor focused
+        on creating engaging visual content for brands, businesses and
+        social media. I use AI tools together with editing and creative
+        direction to turn ideas into polished videos.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <div class="section-label">Have a project?</div>
+
+    <h2>
+      Let's work<br>
+      together.
+    </h2>
+
+    <p>
+      I'm open to AI video, UGC ads and video editing projects.
+    </p>
+
+    <a href="mailto:YOUR-EMAIL@gmail.com" class="button">
+      Get in touch →
+    </a>
+
+  </section>
+
+
+  <footer>
+    <div>© 2026 Markie Odasco</div>
+    <div>AI Video Specialist & Video Editor</div>
+  </footer>
+
+</body>
+</html>
