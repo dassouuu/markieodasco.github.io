@@ -1,0 +1,3 @@
+Put your JPG, PNG, WebP, or SVG thumbnail images in this folder.
+Example: skincare-ad.jpg
+In portfolio.ini, use thumbnail=skincare-ad.jpg (filename only).

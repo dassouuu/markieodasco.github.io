@@ -1,0 +1,145 @@
+[
+  {
+    "id": "blood-pressure-claymation",
+    "source": "CLAYMATION ADS/Blood pressure health.mp4",
+    "video": "assets/videos/blood-pressure-claymation.mp4",
+    "thumbnail": "assets/thumbnails/blood-pressure-claymation.jpg",
+    "duration": 48.970998,
+    "bytes": 11757717,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 44.1
+  },
+  {
+    "id": "podcast-conversation",
+    "source": "UGC ADS 2/Copy of podcast sample.mp4",
+    "video": "assets/videos/podcast-conversation.mp4",
+    "thumbnail": "assets/thumbnails/podcast-conversation.jpg",
+    "duration": 28.0,
+    "bytes": 14132849,
+    "width": 1080,
+    "height": 1920,
+    "thumbnail_time": 7
+  },
+  {
+    "id": "bubbly-b-plus",
+    "source": "UGC ADS 2/Copy of Bubbly B plus.mp4",
+    "video": "assets/videos/bubbly-b-plus.mp4",
+    "thumbnail": "assets/thumbnails/bubbly-b-plus.jpg",
+    "duration": 33.833333,
+    "bytes": 21795474,
+    "width": 1080,
+    "height": 1920,
+    "thumbnail_time": 16.9
+  },
+  {
+    "id": "plantwhey",
+    "source": "UGC ADS 2/Copy of PlantWhey.mp4",
+    "video": "assets/videos/plantwhey.mp4",
+    "thumbnail": "assets/thumbnails/plantwhey.jpg",
+    "duration": 37.081995,
+    "bytes": 20634693,
+    "width": 1080,
+    "height": 1920,
+    "thumbnail_time": 18.5
+  },
+  {
+    "id": "clean-nutra-01",
+    "source": "UGC ADS/Copy of clean nutra1.mp4",
+    "video": "assets/videos/clean-nutra-01.mp4",
+    "thumbnail": "assets/thumbnails/clean-nutra-01.jpg",
+    "duration": 63.715011,
+    "bytes": 15484772,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 57.3
+  },
+  {
+    "id": "clean-nutra-02",
+    "source": "UGC ADS/Copy of Clean nutra2.mp4",
+    "video": "assets/videos/clean-nutra-02.mp4",
+    "thumbnail": "assets/thumbnails/clean-nutra-02.jpg",
+    "duration": 84.637007,
+    "bytes": 19495023,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 63.5
+  },
+  {
+    "id": "clean-nutra-03",
+    "source": "UGC ADS/Copy of clean nutra3.mp4",
+    "video": "assets/videos/clean-nutra-03.mp4",
+    "thumbnail": "assets/thumbnails/clean-nutra-03.jpg",
+    "duration": 90.767007,
+    "bytes": 21822673,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 5.4
+  },
+  {
+    "id": "vsl-sample",
+    "source": "VSL/sample 1.mp4",
+    "video": "assets/videos/vsl-sample.mp4",
+    "thumbnail": "assets/thumbnails/vsl-sample.jpg",
+    "duration": 29.372993,
+    "bytes": 15948631,
+    "width": 1080,
+    "height": 1920,
+    "thumbnail_time": 7.3
+  },
+  {
+    "id": "uric-acid-purge",
+    "source": "VSL/UricAcidPurge_DrainReveal_MaleVO_Broll_9x16_v1.mp4",
+    "video": "assets/videos/uric-acid-purge.mp4",
+    "thumbnail": "assets/thumbnails/uric-acid-purge.jpg",
+    "duration": 53.521995,
+    "bytes": 11687029,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 3.2
+  },
+  {
+    "id": "gut-harmony-claymation",
+    "source": "CLAYMATION ADS 3/Gut harmony.mp4",
+    "video": "assets/videos/gut-harmony-claymation.mp4",
+    "thumbnail": "assets/thumbnails/gut-harmony-claymation.jpg",
+    "duration": 52.338005,
+    "bytes": 11880396,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 49.7
+  },
+  {
+    "id": "clean-nutra-claymation",
+    "source": "CLAYMATION ADS 3/Clean nutra.mp4",
+    "video": "assets/videos/clean-nutra-claymation.mp4",
+    "thumbnail": "assets/thumbnails/clean-nutra-claymation.jpg",
+    "duration": 92.182993,
+    "bytes": 21195081,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 7.4
+  },
+  {
+    "id": "garcinia-3d-animation",
+    "source": "sample11.mp4",
+    "video": "assets/videos/garcinia-3d-animation.mp4",
+    "thumbnail": "assets/thumbnails/garcinia-3d-animation.jpg",
+    "duration": 49.713991,
+    "bytes": 12097073,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 45.7
+  },
+  {
+    "id": "eloix-skincare-animation",
+    "source": "sample22.mp4",
+    "video": "assets/videos/eloix-skincare-animation.mp4",
+    "thumbnail": "assets/thumbnails/eloix-skincare-animation.jpg",
+    "duration": 70.820998,
+    "bytes": 17121260,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 5.7
+  }
+]

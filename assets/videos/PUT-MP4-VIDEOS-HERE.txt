@@ -1,0 +1,3 @@
+Your thirteen integrated MP4 videos are in this folder.
+Add future videos here and reference only their filenames in portfolio.ini.
+Example: video=my-next-ad.mp4

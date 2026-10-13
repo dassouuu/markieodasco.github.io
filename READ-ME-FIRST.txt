@@ -1,0 +1,56 @@
+YOUR EASY-EDIT PORTFOLIO
+========================
+
+1. Right-click the ZIP > Extract All > Extract.
+2. Double-click START-HERE.html to preview in Edge or Chrome.
+
+TO ADD YOUR OWN VIDEO
+---------------------
+1. Copy your MP4 to: assets/videos/skincare-ad.mp4
+2. Copy its thumbnail to: assets/thumbnails/skincare-ad.jpg
+3. Right-click portfolio.ini > Open with > Notepad.
+4. Paste this block at the bottom, on new lines:
+
+[project:skincare-ad]
+title=My skincare AI UGC ad
+category=ugc
+description=Describe the real project and your contribution here.
+video=skincare-ad.mp4
+thumbnail=skincare-ad.jpg
+placeholder=no
+tags=9:16 | AI UGC
+
+5. Save portfolio.ini with Ctrl+S.
+6. Double-click UPDATE-PORTFOLIO.cmd and read its result.
+7. Open START-HERE.html again, or refresh it in your browser.
+
+No JavaScript editing, Python, Node, or installation is needed on Windows 10/11.
+The updater uses the PowerShell included with Windows. It refreshes config-data.js
+and START-HERE.html. Do not edit those generated files yourself.
+
+Use only filenames after video= and thumbnail=, not full folder paths.
+Use lowercase names with hyphens, and match filenames exactly.
+Other categories: product or animation.
+To add another project, copy the block and give it a unique project ID/filenames.
+Example: [project:headphone-ad], headphone-ad.mp4, headphone-ad.jpg.
+
+PERSONAL DETAILS
+----------------
+Edit name, email, about, skills, and tools under [profile] in portfolio.ini.
+Use | between tags, skills, or tools. Keep descriptions on one line.
+To hide an existing concept, add enabled=no anywhere within its project block,
+before the next heading. To show it again, change that to enabled=yes.
+
+YOUR LIVE WEBSITE
+-----------------
+index.html is the GitHub Pages homepage. Upload portfolio.ini and your media along
+with the website files. The published homepage reads portfolio.ini directly, so
+future live-site changes only need the changed INI file and any new media files.
+For double-click local previews, run UPDATE-PORTFOLIO.cmd after each change.
+
+Keep START-HERE.html next to the assets folder: actual MP4 videos are not embedded.
+The form prepares a brief; it does not automatically send messages.
+Your thirteen available video uploads are integrated. Original concept entries are retained but hidden.
+Your profile photo, email, WhatsApp and Discord username are included.
+
+See EDITING-GUIDE.md for the filename table, templates, and exact upload steps.
