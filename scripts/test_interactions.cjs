@@ -68,8 +68,8 @@ async function environment(customize = () => {}, standalone = false) {
   await a.$('[data-filter="all"]').click();
   const first = a.$('.project-poster'); await first.click();
   assert.equal(a.$('#project-dialog').open,true);
-  assert.equal(a.$('#dialog-title').textContent,'Clean Nutra — Gym-led UGC');
-  assert(a.$('#dialog-media').querySelector('video').src.endsWith('clean-nutra-01.mp4'));
+  assert.equal(a.$('#dialog-title').textContent,'100,000 Whys — Comment-reply UGC, Hook 1');
+  assert(a.$('#dialog-media').querySelector('video').src.endsWith('100000-whys-hook-01.mp4'));
   await a.$('.dialog-close').click();
   assert.equal(a.$('#project-dialog').open,false);
   assert.equal(a.document.activeElement,first);
@@ -99,7 +99,7 @@ async function environment(customize = () => {}, standalone = false) {
   for(const image of preview.$('#project-grid').querySelectorAll('img')) assert(image.src.startsWith('data:image/jpeg;base64,'),'Preview posters must use extracted thumbnails');
   await preview.$('.project-poster').click();
   assert(preview.$('#dialog-media').querySelector('video').poster.startsWith('data:image/jpeg;base64,'));
-  assert.equal(preview.$('#dialog-media').querySelector('video').src,'assets/videos/clean-nutra-01.mp4');
+  assert.equal(preview.$('#dialog-media').querySelector('video').src,'assets/videos/100000-whys-hook-01.mp4');
   await preview.$('.dialog-close').click();
   await preview.$('[data-filter="product"]').click();
   assert.equal(preview.$('#project-grid').children.length,2);

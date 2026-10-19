@@ -44,15 +44,15 @@
     "thumbnail_time": 18.5
   },
   {
-    "id": "clean-nutra-01",
-    "source": "UGC ADS/Copy of clean nutra1.mp4",
-    "video": "assets/videos/clean-nutra-01.mp4",
-    "thumbnail": "assets/thumbnails/clean-nutra-01.jpg",
-    "duration": 63.715011,
-    "bytes": 15484772,
+    "id": "100000-whys-hook-01",
+    "source": "hook1.mp4",
+    "video": "assets/videos/100000-whys-hook-01.mp4",
+    "thumbnail": "assets/thumbnails/100000-whys-hook-01.jpg",
+    "duration": 70.078005,
+    "bytes": 16878939,
     "width": 720,
     "height": 1280,
-    "thumbnail_time": 57.3
+    "thumbnail_time": 18.0
   },
   {
     "id": "clean-nutra-02",
@@ -66,15 +66,15 @@
     "thumbnail_time": 63.5
   },
   {
-    "id": "clean-nutra-03",
-    "source": "UGC ADS/Copy of clean nutra3.mp4",
-    "video": "assets/videos/clean-nutra-03.mp4",
-    "thumbnail": "assets/thumbnails/clean-nutra-03.jpg",
-    "duration": 90.767007,
-    "bytes": 21822673,
+    "id": "100000-whys-hook-02",
+    "source": "HOOK 222.mp4",
+    "video": "assets/videos/100000-whys-hook-02.mp4",
+    "thumbnail": "assets/thumbnails/100000-whys-hook-02.jpg",
+    "duration": 72.516009,
+    "bytes": 17492456,
     "width": 720,
     "height": 1280,
-    "thumbnail_time": 5.4
+    "thumbnail_time": 15.2
   },
   {
     "id": "vsl-sample",
