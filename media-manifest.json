@@ -141,5 +141,16 @@
     "width": 720,
     "height": 1280,
     "thumbnail_time": 5.7
+  },
+  {
+    "id": "pumpkin-seed-oil-pixar-3d",
+    "source": "markierev3.mp4",
+    "video": "assets/videos/pumpkin-seed-oil-pixar-3d.mp4",
+    "thumbnail": "assets/thumbnails/pumpkin-seed-oil-pixar-3d.jpg",
+    "duration": 153.368,
+    "bytes": 17684632,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 20
   }
 ]
