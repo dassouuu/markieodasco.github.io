@@ -44,4 +44,4 @@ The Spanish/bilingual Clean Nutra project (`clean-nutra-02`) and the animated Cl
 
 ## November 10 update
 
-Two new projects were added: `clay-doctor-garlic-animation.mp4` (clay presenter with Pixar-inspired 3D explainer scenes, from `E0132 (CLAY MAN).mp4`, kept at its original 360×640 resolution) and `everly-pumpkin-seed-oil-vsl.mp4` (voice-over and B-roll product VSL, from `Everly_E0145_v3_captions_preview.mp4`, 720×1280). The gallery now shows 16 projects. No client affiliations or performance results are claimed.
+Three projects were added: `everly-clay-presenter-3d-story.mp4` (clay presenter with Pixar-inspired 3D scenes, from `PT2.mp4`, 720×1280), `everly-pumpkin-seed-oil-vsl.mp4` (voice-over and B-roll product VSL, from `Everly_E0145_v3_captions_preview.mp4`, 720×1280) and `hair-how-it-started-ugc.mp4` (before-and-after style UGC, from `hair.mp4`, 720×1280). The gallery now shows 17 projects. No client affiliations or performance results are claimed.

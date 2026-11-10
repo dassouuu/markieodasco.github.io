@@ -154,17 +154,6 @@
     "thumbnail_time": 20
   },
   {
-    "id": "clay-doctor-garlic-animation",
-    "source": "E0132 (CLAY MAN).mp4",
-    "video": "assets/videos/clay-doctor-garlic-animation.mp4",
-    "thumbnail": "assets/thumbnails/clay-doctor-garlic-animation.jpg",
-    "duration": 72.701995,
-    "bytes": 3815386,
-    "width": 360,
-    "height": 640,
-    "thumbnail_time": 8
-  },
-  {
     "id": "everly-pumpkin-seed-oil-vsl",
     "source": "Everly_E0145_v3_captions_preview.mp4",
     "video": "assets/videos/everly-pumpkin-seed-oil-vsl.mp4",
@@ -174,5 +163,27 @@
     "width": 720,
     "height": 1280,
     "thumbnail_time": 71
+  },
+  {
+    "id": "everly-clay-presenter-3d-story",
+    "source": "PT2.mp4",
+    "video": "assets/videos/everly-clay-presenter-3d-story.mp4",
+    "thumbnail": "assets/thumbnails/everly-clay-presenter-3d-story.jpg",
+    "duration": 96.733991,
+    "bytes": 14216419,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 24
+  },
+  {
+    "id": "hair-how-it-started-ugc",
+    "source": "hair.mp4",
+    "video": "assets/videos/hair-how-it-started-ugc.mp4",
+    "thumbnail": "assets/thumbnails/hair-how-it-started-ugc.jpg",
+    "duration": 17.67,
+    "bytes": 3399203,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 13.2
   }
 ]
