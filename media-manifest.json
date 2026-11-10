@@ -152,5 +152,27 @@
     "width": 720,
     "height": 1280,
     "thumbnail_time": 20
+  },
+  {
+    "id": "clay-doctor-garlic-animation",
+    "source": "E0132 (CLAY MAN).mp4",
+    "video": "assets/videos/clay-doctor-garlic-animation.mp4",
+    "thumbnail": "assets/thumbnails/clay-doctor-garlic-animation.jpg",
+    "duration": 72.701995,
+    "bytes": 3815386,
+    "width": 360,
+    "height": 640,
+    "thumbnail_time": 8
+  },
+  {
+    "id": "everly-pumpkin-seed-oil-vsl",
+    "source": "Everly_E0145_v3_captions_preview.mp4",
+    "video": "assets/videos/everly-pumpkin-seed-oil-vsl.mp4",
+    "thumbnail": "assets/thumbnails/everly-pumpkin-seed-oil-vsl.jpg",
+    "duration": 94.208,
+    "bytes": 11564874,
+    "width": 720,
+    "height": 1280,
+    "thumbnail_time": 71
   }
 ]

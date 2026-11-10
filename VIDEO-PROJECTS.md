@@ -41,3 +41,7 @@ Preview: extract the full ZIP and open `START-HERE.html` in Edge or Chrome. Keep
 The two English Clean Nutra UGC entries (Gym-led UGC and Everyday routine) were replaced by the supplied `hook1.mp4` and `HOOK 222.mp4`, presented as two English 100,000 Whys comment-reply creatives. Both have new thumbnail frames and H.264/AAC web copies. The gallery remains at 13 projects.
 
 The Spanish/bilingual Clean Nutra project (`clean-nutra-02`) and the animated Clean Nutra project remain unchanged. The Spanish project's configuration section, video bytes and thumbnail bytes were checked against the previous published version. Only the two replaced English UGC media files and their thumbnails were removed from the current source tree; Git history retains the previous version.
+
+## November 10 update
+
+Two new projects were added: `clay-doctor-garlic-animation.mp4` (clay presenter with Pixar-inspired 3D explainer scenes, from `E0132 (CLAY MAN).mp4`, kept at its original 360×640 resolution) and `everly-pumpkin-seed-oil-vsl.mp4` (voice-over and B-roll product VSL, from `Everly_E0145_v3_captions_preview.mp4`, 720×1280). The gallery now shows 16 projects. No client affiliations or performance results are claimed.
