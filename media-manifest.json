@@ -155,25 +155,25 @@
   },
   {
     "id": "everly-pumpkin-seed-oil-vsl",
-    "source": "Everly_E0145_v3_captions_preview.mp4",
+    "source": "Everly_E0145_v5.mp4",
     "video": "assets/videos/everly-pumpkin-seed-oil-vsl.mp4",
     "thumbnail": "assets/thumbnails/everly-pumpkin-seed-oil-vsl.jpg",
-    "duration": 94.208,
-    "bytes": 11564874,
+    "duration": 82.3,
+    "bytes": 9800325,
     "width": 720,
     "height": 1280,
-    "thumbnail_time": 71
+    "thumbnail_time": 60
   },
   {
     "id": "everly-clay-presenter-3d-story",
-    "source": "PT2.mp4",
+    "source": "CLAYMAN2.mp4",
     "video": "assets/videos/everly-clay-presenter-3d-story.mp4",
     "thumbnail": "assets/thumbnails/everly-clay-presenter-3d-story.jpg",
-    "duration": 96.733991,
-    "bytes": 14216419,
+    "duration": 76.44,
+    "bytes": 12672034,
     "width": 720,
     "height": 1280,
-    "thumbnail_time": 24
+    "thumbnail_time": 20
   },
   {
     "id": "hair-how-it-started-ugc",
