@@ -1,5 +1,16 @@
 [
   {
+    "id": "everly-sketch-illustrated-story",
+    "source": "Everly_E0073_v1_preview.mp4",
+    "video": "assets/videos/everly-sketch-illustrated-story.mp4",
+    "thumbnail": "assets/thumbnails/everly-sketch-illustrated-story.jpg",
+    "duration": 72.405,
+    "bytes": 7917278,
+    "width": 540,
+    "height": 960,
+    "thumbnail_time": 28
+  },
+  {
     "id": "blood-pressure-claymation",
     "source": "CLAYMATION ADS/Blood pressure health.mp4",
     "video": "assets/videos/blood-pressure-claymation.mp4",
